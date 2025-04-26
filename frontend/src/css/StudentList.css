@@ -1,0 +1,47 @@
+.student-list-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .student-list-buttons {
+    margin-bottom: 15px;
+  }
+  
+  .student-list-buttons a {
+    text-decoration: none;
+  }
+  
+  button {
+    padding: 6px 12px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #eee;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #999;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .edit{
+    background-color: lightseagreen;
+  }
+  .delete{
+    background-color: red;
+  }
